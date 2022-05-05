@@ -22,10 +22,18 @@ public class BonusRates {
         Scanner computerKeyboardInput = new Scanner(System.in);
         int yearsOfService;
         int salesTotal;
+        int bonusRate;
         System.out.print("Enter employee's years of service: ");
         yearsOfService = computerKeyboardInput.nextInt();
         System.out.print("Enter employee's sales total: ");
         salesTotal = computerKeyboardInput.nextInt();
+        if (conditions) {
+            //statements
+        } else if (conditions) {
+            //statements
+        } else {
+            //statements
+        }
+        System.out.print("bonus rate = \n");
     }
-
 }
