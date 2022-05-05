@@ -5,6 +5,8 @@
  */
 package bonusrates;
 
+import java.util.Scanner;
+
 /**
  *
  * @author 4800590195
@@ -16,7 +18,14 @@ public class BonusRates {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-
+        System.out.print("Bonus Rates by Kevin Bell \n");
+        Scanner computerKeyboardInput = new Scanner(System.in);
+        int yearsOfService;
+        int salesTotal;
+        System.out.print("Enter employee's years of service: ");
+        yearsOfService = computerKeyboardInput.nextInt();
+        System.out.print("Enter employee's sales total: ");
+        salesTotal = computerKeyboardInput.nextInt();
     }
 
 }
