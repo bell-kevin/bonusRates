@@ -22,20 +22,21 @@ public class BonusRates {
         Scanner computerKeyboardInput = new Scanner(System.in);
         int yearsOfService;
         int salesTotal;
-        int bonusRate;
+        int bonusRate = 0;
         int longevityBonus;
         int salesBonus;
+        int employeeSalary = 0;
         System.out.print("Enter employee's years of service: ");
         yearsOfService = computerKeyboardInput.nextInt();
         System.out.print("Enter employee's sales total: ");
         salesTotal = computerKeyboardInput.nextInt();
-        if (conditions) {
-            //statements
-        } else if (conditions) {
-            //statements
+        if (yearsOfService > 10 || salesTotal > 250000) {
+            bonusRate = 2;
+        } else if (yearsOfService > 5 || salesTotal > 125000) {
+            bonusRate = 1;
         } else {
             //statements
         }
-        System.out.print("bonus rate = \n");
+        System.out.print("bonus rate = " + bonusRate + "\n");
     }
 }
