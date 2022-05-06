@@ -37,6 +37,6 @@ public class BonusRates {
         } else {
             //statements
         }
-        System.out.print("bonus rate = " + bonusRate + "\n");
+        System.out.print("bonus rate = " + bonusRate + "%\n");
     }
 }
