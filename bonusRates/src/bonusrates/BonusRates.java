@@ -35,8 +35,8 @@ public class BonusRates {
         } else if (yearsOfService > 5 || salesTotal > 125000) {
             bonusRate = 1;
         } else {
-            //statements
+            bonusRate = 100;
         }
-        System.out.print("bonus rate = " + bonusRate + "%\n");
+        System.out.print("bonus rate = " + bonusRate + "\n");
     }
 }
