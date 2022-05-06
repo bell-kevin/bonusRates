@@ -25,7 +25,6 @@ public class BonusRates {
         int bonusRate = 0;
         int longevityBonus;
         int salesBonus;
-        int employeeSalary = 0;
         System.out.print("Enter employee's years of service: ");
         yearsOfService = computerKeyboardInput.nextInt();
         System.out.print("Enter employee's sales total: ");
