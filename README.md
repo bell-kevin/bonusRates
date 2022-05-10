@@ -7,6 +7,8 @@ Write a project that asks the user for an employee’s years of service and sale
 
 Run the program as many times as necessary to test every possibility, to make sure every path through the code works correctly. Consider each different element and the outcome. For example, longevity is one test; if years of service > 10, bonus rate = 2%. So run a test with years of service > 10 (for example, 12, as in the sample session), and sales total = 0 (so you are testing only the longevity). The other test is sales total; if sales total > $250,000, bonus rate = 2%. So run a test with sales total > $125,000 (for example, $150,00), and years of service = 1%. Make sure that when you enter longevity of 1 year and sales total of $150,000, you get the correct answer of 1% bonus rate.
 
+Do NOT include literal values in any calculations, always use variable
+
 Note that you must use correct formatting in the code -- appropriate indentation is most important. You can use Shift-Alt-F to have NetBeans automatically format the code correctly. If the formatting is incorrect, it will be returned to you for changes with a grade of zero.
 
 Note: You need to submit the whole project for these assignments. In File Explorer, go to the location where you created the project. There will be a folder with the name of your project -- that is the root folder of the project.  If you submit the root folder of the project, the instructor can run it on a different machine to grade it. If you don't submit the proper folder, it won't run on another machine, and the assignment will be marked with a zero.
