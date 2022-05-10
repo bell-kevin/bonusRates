@@ -9,7 +9,7 @@ import java.util.Scanner;
 
 /**
  *
- * @author 480590195
+ * @author 4800590195
  */
 public class BonusRates {
 
